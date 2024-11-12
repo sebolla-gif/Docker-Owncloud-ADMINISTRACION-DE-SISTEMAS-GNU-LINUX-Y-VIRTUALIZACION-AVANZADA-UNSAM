@@ -14,12 +14,3 @@ Este proyecto utiliza **Docker Compose** para gestionar múltiples contenedores,
 - **PostgreSQL**: Base de datos relacional para almacenar los datos de OwnCloud.
 - **Redis**: Caché en memoria para mejorar el rendimiento de OwnCloud.
 
-## Instrucciones de Instalación
-
-### Paso 1: Clonar el repositorio
-
-Primero, clona este repositorio en tu máquina local:
-
-```bash
-git clone https://github.com/tu-usuario/proyecto-owncloud.git
-cd proyecto-owncloud
