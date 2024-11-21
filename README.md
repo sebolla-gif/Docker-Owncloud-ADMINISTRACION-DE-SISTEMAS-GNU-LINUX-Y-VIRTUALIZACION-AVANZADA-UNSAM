@@ -111,11 +111,11 @@ Lo definido para Postgres no presenta cambios respecto a lo mencionado en Ownclo
 
 En este apartado lo unico que destaca frente a los demas es *command*
 En el mismo se define:
-"--requirepass", "redispassword1" ya que el comando por default es levantar el servidor de redis (*"redis-server").
-Debe observarse que a su vez la clave "redispassword1" se define en **environment* del servicio Redis.
+"--requirepass", "redispassword1" ya que el comando por default es levantar el servidor de redis (*"redis-server"*).
+Debe observarse que a su vez la clave "redispassword1" se define en *environment* del servicio Redis.
 
 ### USER 2
-A continuación podrá observarse que el código se repite pero mencionando un user 2. Esto fue parte de las pruebas donde se levanto un servicio de OwnCloud en paralelo (Verificar que tambien se abre otro puerto a nivel local). con esto podemos apreciar que es replicable infinidad de veces (Siempre evaluando si lo vale previamente)
+A continuación podrá observarse que el código se repite pero mencionando un user 2. Esto fue parte de las pruebas donde se levanto un servicio de OwnCloud en paralelo (Verificar que tambien se abre otro puerto a nivel local). con esto podemos apreciar que es replicable hasta 9 veces (Siempre evaluando si lo vale previamente)
 
 ### Volumes
 Por ultimo se ve que se declara una seccion de volumes: 
@@ -132,3 +132,10 @@ volumes:
   }
 ```
 En este apartado final se *declaran* los volumenes que se utilizarán y dentro de los servicios se explica *dónde se deben montar esos volúmenes en los contenedores*
+
+## Hoja de ruta
+
+- Modificar el *Script* para poder tener mas de 9 usuarios.
+- Generar un *Script* para poder elejir el nombre del usuario y la contraseña.
+- Agregar un Headcheck en el *Docker compose*.
+
