@@ -32,7 +32,7 @@ for i in $(seq 1 "$user_count"); do
       - OWNCLOUD_DB_PASSWORD=password$i
       - OWNCLOUD_DB_HOST=postgres_user$i
       - OWNCLOUD_REDIS_HOST=redis_user$i
-      - OWNCLOUD_ADMIN_USER=admin_user$i
+      - OWNCLOUD_ADMIN_USERNAME=admin_user$i
       - OWNCLOUD_ADMIN_PASSWORD=adminpassword$i
     volumes:
       - owncloud_data_user$i:/mnt/data
