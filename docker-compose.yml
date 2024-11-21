@@ -17,7 +17,7 @@ services:
       - OWNCLOUD_DB_PASSWORD=password1
       - OWNCLOUD_DB_HOST=postgres_user1
       - OWNCLOUD_REDIS_HOST=redis_user1
-      - OWNCLOUD_ADMIN_USER=admin_user1
+      - OWNCLOUD_ADMIN_USERNAME=admin_user1
       - OWNCLOUD_ADMIN_PASSWORD=adminpassword1
     volumes:
       - owncloud_data_user1:/mnt/data
@@ -59,7 +59,7 @@ services:
       - OWNCLOUD_DB_PASSWORD=password2
       - OWNCLOUD_DB_HOST=postgres_user2
       - OWNCLOUD_REDIS_HOST=redis_user2
-      - OWNCLOUD_ADMIN_USER=admin_user2
+      - OWNCLOUD_ADMIN_USERNAME=admin_user2
       - OWNCLOUD_ADMIN_PASSWORD=adminpassword2
     volumes:
       - owncloud_data_user2:/mnt/data
