@@ -19,7 +19,7 @@ Este proyecto utiliza *Docker Compose* para gestionar múltiples contenedores, i
 Además, el proyecto incluye un *script* en *Bash* que permite generar un archivo de *Docker Compose* con múltiples usuarios, cada uno con su propia base de datos. Para ejecutar este *script*, es necesario contar con un sistema operativo *Linux* que utilice *Bash* como *shell*.
 
 > [!NOTE]
-> Si no se utiliza el *Script*, el archivo de *Docker Compose del proyecto está configurado para dos usuarios.
+> Si no se utiliza el *Script*, el archivo de *Docker Compose* del proyecto está configurado para dos usuarios.
   
 A continuación se hará una breve descripció de los bloques de código:
 
