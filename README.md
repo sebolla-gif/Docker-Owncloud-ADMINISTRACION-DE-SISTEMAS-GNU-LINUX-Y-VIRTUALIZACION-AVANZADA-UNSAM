@@ -14,6 +14,9 @@ Este proyecto utiliza *Docker Compose* para gestionar múltiples contenedores, i
 - *PostgreSQL: Base de datos relacional para almacenar los datos de OwnCloud. **Redis*: Caché en memoria para mejorar el rendimiento de OwnCloud (Caché, gestión de sesiones y sincronización de archivos).
 A continuación se hará una breve descripció de los bloques de código
 
+![User_1](https://github.com/user-attachments/assets/d1bfc460-510a-4248-8321-af47fad7ce28)
+
+
 ## Servicio de OwnCloud
 
 {
