@@ -1,4 +1,4 @@
-# :whale::cloud:Proyecto de Nube Privada con OwnCloud y Docker:cloud::whale:
+# :whale:Proyecto de Nube Privada con OwnCloud y Docker:whale:
 Este proyecto utiliza OwnCloud para crear una nube privada personalizable. Se configura con Docker utilizando PostgreSQL como base de datos y Redis como sistema de caché.
 ## Requisitos
 
@@ -137,5 +137,5 @@ En este apartado final se *declaran* los volumenes que se utilizarán y dentro d
 
 - Modificar el *Script* para poder tener mas de 9 usuarios.
 - Generar un *Script* para poder elejir el nombre del usuario y la contraseña.
-- Agregar un Headcheck en el *Docker compose*.
+- Agregar un healthcheck en el *Docker compose*.
 
